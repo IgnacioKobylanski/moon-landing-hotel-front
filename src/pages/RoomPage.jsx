@@ -5,8 +5,11 @@ const RoomPage = ({ match }) => {
 
     return (
         <div className="room-details">
-             <h2></h2>
+             <h2>Room name</h2>
+             <nav className="room-nav"></nav>
         </div>
+
+        
        
     );
 
