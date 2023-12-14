@@ -7,6 +7,7 @@ const RoomPage = ({ match }) => {
         <div className="room-details">
              <h2>Room name</h2>
              <nav className="room-nav"></nav>
+             <p className="text-description"></p>
         </div>
 
         
