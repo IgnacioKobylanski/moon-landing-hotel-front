@@ -5,9 +5,10 @@ const RoomPage = ({ match }) => {
 
     return (
         <div className="room-details">
-             <h2>Room name</h2>
              <nav className="room-nav"></nav>
+             <h2>Room name</h2>
              <p className="text-description"></p>
+             <img src="" alt="" />
         </div>
 
         
