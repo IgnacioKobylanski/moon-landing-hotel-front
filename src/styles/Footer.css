@@ -1,0 +1,9 @@
+Footer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-color: black;
+    min-height: 10vh;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}

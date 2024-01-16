@@ -1,0 +1,19 @@
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    font-family: 'Roboto', sans-serif;
+}
+nav>a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-header {
+    margin: 0 1rem;
+}
