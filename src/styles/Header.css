@@ -1,6 +1,12 @@
+:root {
+    --lihgtGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+}
+
+
 header {
-    background-color: black;
-    color: white;
+    background-color: var(--mediumGray);
+    color: var(--lihgtGray);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +14,7 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 nav>a {
-    color: white;
+    color: var(--lihgtGray);
     text-decoration: none;
     margin-left: 2rem;
     font-family: 'Roboto', sans-serif;
