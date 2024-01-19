@@ -1,9 +1,15 @@
+:root {
+    --lihgtGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+    --darkGray: #333;
+}
+
 Footer{
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    background-color: black;
+    background-color: var(--darkGray);
     min-height: 10vh;
-    color:white;
+    color:var(--lihgtGray);
     font-family: 'Roboto', sans-serif;
 }

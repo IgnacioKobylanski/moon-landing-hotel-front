@@ -1,6 +1,7 @@
 :root {
     --lihgtGray: #a4a49c;
     --mediumGray: #3d3c3e; 
+    --darkGray: #333;
 }
 
 
@@ -8,18 +9,32 @@ header {
     background-color: var(--mediumGray);
     color: var(--lihgtGray);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     min-height: 10vh;
     font-family: 'Roboto', sans-serif;
 }
-nav>a {
-    color: var(--lihgtGray);
-    text-decoration: none;
-    margin-left: 2rem;
-    font-family: 'Roboto', sans-serif;
+
+.logo {
+    width: 7rem; 
+    height: auto; 
 }
 
-.title-header {
-    margin: 0 1rem;
-}
+nav {
+    display: flex;
+    gap: 2rem;
+    
+  }
+
+
+  nav a {
+    color: var(--lihgtGray);
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: var(--darkGray);
+  }

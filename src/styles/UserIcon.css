@@ -1,0 +1,39 @@
+/* UserIcon.css */
+
+.user-icon {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  /* DropdownMenu.css */
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .user-icon:hover .dropdown-menu {
+    display: block;
+  }
+  
