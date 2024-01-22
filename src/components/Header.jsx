@@ -9,7 +9,10 @@ const Header = ({ onLogin }) => {
             <img src="moonlanding-hotel-logo.png" alt="" className="logo"/>
             <nav>
                 <a href="">Home</a>
-                <a href="">More Info</a>
+                <a href="">Rooms</a>
+                <a href="">Hotel info</a>
+                <a href="">Galery</a>
+                <a href="">Events</a>
                 <a href="">Contact us</a>
             </nav>
             <UserIcon />
