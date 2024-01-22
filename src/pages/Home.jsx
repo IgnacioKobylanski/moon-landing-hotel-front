@@ -5,6 +5,7 @@ const Home = () => {
         <div className="home-main">
             test
         </div>
+        
     );
 };
 

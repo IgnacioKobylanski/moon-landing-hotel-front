@@ -10,10 +10,10 @@ const Header = ({ onLogin }) => {
             <nav>
                 <a href="">Home</a>
                 <a href="">Rooms</a>
-                <a href="">Hotel info</a>
+                <a href="">Hotel Info</a>
                 <a href="">Galery</a>
                 <a href="">Events</a>
-                <a href="">Contact us</a>
+                <a href="">Contact Us</a>
             </nav>
             <UserIcon />
         </header>
