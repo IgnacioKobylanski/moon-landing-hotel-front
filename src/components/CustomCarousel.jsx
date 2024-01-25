@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import CarouselImage from './CarouselImage'; // Ajusta la ruta según la ubicación real
+import CarouselImage from './CarouselImage';
 
 const CustomCarousel = () => {
   return (
