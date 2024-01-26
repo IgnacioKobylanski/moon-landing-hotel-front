@@ -8,8 +8,8 @@ import '../styles/Home.css';
 const Home = () => {
     
     const roomsData = [
-        { id: 1, name: 'Habitación Estándar', description: 'Una habitación cómoda con todas las comodidades.', imageUrl: 'https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-        { id: 2, name: 'Suite de Lujo', description: 'Una suite espaciosa con vistas impresionantes.', imageUrl: 'https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&w=600' },
+        { id: 1, name: 'Standard Room', description: 'Una habitación cómoda con todas las comodidades.', imageUrl: 'https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
+        { id: 2, name: 'Suite', description: 'Una suite espaciosa con vistas impresionantes.', imageUrl: 'https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&w=600' },
     ];
 
     return (
