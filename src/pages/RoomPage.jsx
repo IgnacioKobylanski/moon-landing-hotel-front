@@ -7,6 +7,7 @@ const RoomPage = ({ match }) => {
         <div className="room-details">
              <nav className="room-nav"></nav>
              <h2>Room name</h2>
+             <img src="" alt="" className="room" /><img src="" alt="" />
              <p className="text-description"></p>
              <img src="" alt="" />
         </div>
