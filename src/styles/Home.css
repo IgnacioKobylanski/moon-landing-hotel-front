@@ -29,6 +29,11 @@
     margin-bottom: 2rem;
 }
 
+.carousel a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Usa el color heredado del elemento padre (puede ser negro o el color original del texto) */
+}
+
 
 .services-section{
     margin-bottom: 2rem;

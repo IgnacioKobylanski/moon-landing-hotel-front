@@ -15,23 +15,6 @@ Footer{
     padding-top: 2.5rem;  
 }
 
-:root {
-    --lihgtGray: #a4a49c;
-    --mediumGray: #3d3c3e; 
-    --darkGray: #333;
-}
-
-Footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: var(--darkGray);
-    min-height: 10vh;
-    color:var(--lihgtGray);
-    font-family: 'Roboto', sans-serif;
-    padding-top: 2.5rem;  
-}
-
 .social-media {
     display: flex;
     gap: 1rem; 

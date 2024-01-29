@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 import CustomNav from "./CustomNav";
 import UserIcon from "./UserIcon";
@@ -6,14 +7,16 @@ import UserIcon from "./UserIcon";
 const Header = ({ onLogin }) => {
     return (
         <header>
-            <img src="moonlanding-hotel-logo.png" alt="" className="logo"/>
+            <Link to="/" className="logo-link">
+                <img src="moonlanding-hotel-logo.png" alt="" className="logo"/>
+            </Link>
             <nav>
-                <a href="">Home</a>
-                <a href="">Rooms</a>
-                <a href="">Hotel Info</a>
-                <a href="">Galery</a>
-                <a href="">Events</a>
-                <a href="">Contact Us</a>
+                <Link to="/">Home</Link>
+                <Link to="/rooms">Rooms</Link>
+                <Link to="/hotel-info">Hotel Info</Link>
+                <Link to="/gallery">Gallery</Link>
+                <Link to="/events">Events</Link>
+                <Link to="/contact-us">Contact Us</Link>
             </nav>
             <UserIcon />
         </header>
