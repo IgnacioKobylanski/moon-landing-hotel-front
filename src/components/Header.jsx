@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import '../styles/Header.css';
-import CustomNav from "./CustomNav";
 import UserIcon from "./UserIcon";
 
 const Header = ({ onLogin }) => {
