@@ -1,0 +1,24 @@
+:root {
+    --lightGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+    --darkGray: #333;
+}
+
+
+.roomList-main {
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    background-color: var(--lightGray);
+}
+
+.content-roomList-main{
+    margin-left: 2rem;
+}
+
+.room-cards-RoomList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
