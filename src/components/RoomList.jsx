@@ -1,6 +1,6 @@
 import React from "react";
-import RoomCard from "./RoomCard"; // Asegúrate de importar correctamente el componente RoomCard
-import '../styles/RoomList.css'; // Asegúrate de importar correctamente el archivo de estilos
+import RoomCard from "./RoomCard";
+import '../styles/RoomList.css';
 
 const RoomList = () => {
     const rooms = [

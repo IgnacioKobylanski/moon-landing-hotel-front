@@ -14,6 +14,9 @@
 }
 
 .content-roomList-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: 2rem;
 }
 
@@ -21,4 +24,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 1rem;
 }

@@ -5,7 +5,7 @@ const RoomCard = ({ roomInfo }) => {
     return (
         <div className="room-card-container">
             <img
-                className="room-card-image"
+                className="room-small-image"
                 src={roomInfo.imageUrl}
                 alt={roomInfo.name}
             />

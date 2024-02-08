@@ -2,8 +2,8 @@ import React from "react";
 import CustomCarousel from "../components/CustomCarousel";
 import RoomCard from "../components/RoomCard";
 import ServiceCard from "../components/ServiceCard";
-import { Carousel } from 'react-bootstrap';
-import { Link } from 'react-router-dom';  // Importa Link desde react-router-dom
+
+import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
 const Home = () => {
@@ -37,18 +37,7 @@ const Home = () => {
                 />
             </section>
 
-            <section className="room-cards">
-                <h2>Available Rooms</h2>
-                <Carousel>
-                    {roomsData.map((room) => (
-                        <Carousel.Item key={room.id}>
-                            <Link to={`/room/${room.id}`}>
-                                <RoomCard roomInfo={room} />
-                            </Link>
-                        </Carousel.Item>
-                    ))}
-                </Carousel>
-            </section>
+            
         </div>
     );
 };
