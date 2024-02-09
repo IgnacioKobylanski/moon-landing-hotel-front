@@ -1,6 +1,6 @@
 import React from "react";
 import CustomCarousel from "../components/CustomCarousel";
-import RoomCard from "../components/RoomCard";
+//import RoomCard from "../components/RoomCard";
 import ServiceCard from "../components/ServiceCard";
 
 import { Link } from 'react-router-dom';
