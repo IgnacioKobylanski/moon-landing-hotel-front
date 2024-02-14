@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+
+:root {
+    --lihgtGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+    --darkGray: #333;
+}
+
+section img {
+    width: 30rem;
+    height: 30rem;
+  }
+  
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--lihgtGray);
+    font-family: 'Roboto', sans-serif;
+    border: 20px outset var(--mediumGray);
+  }
+  
+  .section-1 .div-text {
+    color: var(--darkGray);
+    max-width: 50%;
+  }
+  .section-1,h2{
+    padding-left: 1rem;
+  }
+
+  .section-1,p{
+    padding-left: 3rem;
+  }
+  
+  .section-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: lightpink;
+    font-family: 'Roboto', sans-serif;
+    border: 20px inset #ff69b4;
+
+  }
+  
+  .section-2 .div-text {
+    color: black;
+    max-width: 50%;
+  }
+
+  .section-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: lightgreen;
+    font-family: 'Roboto', sans-serif;
+    border: 20px outset #7CFC00;
+
+    
+  }
+  
+  .section-3 .div-text {
+    color: black;
+    max-width: 50%;
+}

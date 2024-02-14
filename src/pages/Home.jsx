@@ -1,9 +1,9 @@
 import React from "react";
 import CustomCarousel from "../components/CustomCarousel";
-//import RoomCard from "../components/RoomCard";
 import ServiceCard from "../components/ServiceCard";
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../styles/Home.css';
+import Events from "../components/Events";
 
 const Home = () => {
     
@@ -36,7 +36,15 @@ const Home = () => {
                 />
             </section>
 
-            
+            <section className="hotel-events-section">
+                <Events
+                    title="Jazz Show at the Moon Landing Hotel!"
+                    content="Nothing better after a long week that the best Jazz Show in town"
+                    imageSrc="https://images.pexels.com/photos/1677710/pexels-photo-1677710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    className="section-1"
+                />
+            </section>
+
         </div>
     );
 };
