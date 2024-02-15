@@ -43,6 +43,20 @@ const Home = () => {
                     imageSrc="https://images.pexels.com/photos/1677710/pexels-photo-1677710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     className="section-1"
                 />
+
+                <Events
+                    title="Ted Talk is coming to town and is waiting for you!"
+                    content="Do you want to waste your time listening to weird people?, look no further."
+                    imageSrc="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1://images.pexels.com/photos/1677710/pexels-photo-1677710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    className="section-2"
+                />
+
+<Events
+                    title="Jazz Show at the Moon Landing Hotel!"
+                    content="Nothing better after a long week that the best Jazz Show in town"
+                    imageSrc="https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    className="section-3"
+                />
             </section>
 
         </div>
