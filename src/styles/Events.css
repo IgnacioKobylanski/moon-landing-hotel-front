@@ -20,7 +20,7 @@ section img {
     align-items: center;
     flex-direction: row;
     background-color: var(--lihgtGray);
-    font-family: 'Roboto', sans-serif;
+    font-family: "EB Garamond", serif;
     border-top: 10px solid #333333;
     border-right: 10px solid #333333;
     border-bottom: 10px solid #3d3c3e;
@@ -42,7 +42,7 @@ section img {
     align-items: center;
     flex-direction: row-reverse;
     background-color: var(--lihgtGray);
-    font-family: 'Roboto', sans-serif;
+    font-family: "EB Garamond", serif;
     border-top: 10px solid #333333;
     border-right: 10px solid #333333;
     border-bottom: 10px solid #3d3c3e;
@@ -65,7 +65,7 @@ section img {
     align-items: center;
     flex-direction: row;
     background-color: var(--lihgtGray);
-    font-family: 'Roboto', sans-serif;
+    font-family: "EB Garamond", serif;
     border-top: 10px solid #333333;
     border-right: 10px solid #333333;
     border-bottom: 10px solid #3d3c3e;
