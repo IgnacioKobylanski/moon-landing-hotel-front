@@ -38,7 +38,7 @@ const HotelInfo = () => {
         </p>
         </div>
 
-        <img src={hotelImages[2]} alt="Hotel" />
+        <img id="last-pic-hotel-info" src={hotelImages[2]} alt="Hotel" />
 
         <p className="slogan">Your gateway to celestial comfort.</p>
 
