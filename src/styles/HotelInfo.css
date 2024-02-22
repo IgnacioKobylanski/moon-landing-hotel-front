@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root {
+    --lightGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+    --darkGray: #333;
+}
+
+.hotel-info{
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    background-color: var(--lightGray);
+    font-family: "EB Garamond", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hotel-images-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotel-images-info img {
+    max-width: 30rem;
+    max-height: 50rem;
+    margin: 1rem;
+}
+
+.hotel-info img {
+    max-width: 100%; 
+    height: auto; 
+    margin: 1rem; 
+}
+
+.hotel-info-middle{
+    display: flex;
+    margin: 1rem;
+}
+
+.slogan{
+    font-size: 3rem;
+}
+
+#intro-hotel-info{
+    margin: 1rem;
+}
