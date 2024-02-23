@@ -10,6 +10,7 @@ const hotelImages = [
 const HotelInfo = () => {
     return (
       <div className="hotel-info">
+        <section className="hotel-info-intro-section"></section>
         <h2>Moon Landing Hotel</h2>
         <img src={hotelImages[0]} alt="Hotel" />
 
