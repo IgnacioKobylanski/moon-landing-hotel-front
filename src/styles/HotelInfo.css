@@ -39,6 +39,16 @@
 .hotel-info-middle{
     display: flex;
     margin: 1rem;
+    align-items: center;
+    box-shadow: inset;
+}
+
+.hotel-info-middle,p{
+    width: 85rem;
+}
+
+#img-info-middle{
+    height: 30rem;
 }
 
 .slogan{
@@ -54,4 +64,19 @@
 #last-pic-hotel-info{
     width: 100%;
     max-height: 55rem;
+}
+
+.hotel-info-intro-section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.hotel-info-intro-section,p{
+    display: flex;
+    justify-content: center;
+}
+
+#info-img-intro{
+    height: 50rem;
 }
