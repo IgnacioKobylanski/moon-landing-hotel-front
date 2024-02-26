@@ -41,7 +41,7 @@
 }
 
 .hotel-events-section{
-    padding-top: 12rem;
-    max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
-    margin: 0 auto;
-}
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }

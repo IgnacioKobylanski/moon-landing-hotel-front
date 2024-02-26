@@ -36,7 +36,7 @@ const Home = () => {
                 />
             </section>
 
-            {/* <section className="hotel-events-section">
+            <section className="hotel-events-section">
                 <Events
                     title="Jazz Show at the Moon Landing Hotel!"
                     content="Nothing better after a long week that the best Jazz Show in town"
@@ -52,12 +52,12 @@ const Home = () => {
                 />
 
                 <Events
-                    title="Jazz Show at the Moon Landing Hotel!"
-                    content="Nothing better after a long week that the best Jazz Show in town"
+                    title="Witness the best art colection in the world."
+                    content="Be part of a historical collection featuring the world's best artists"
                     imageSrc="https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     className="section-3"
                 />
-            </section> */}
+            </section>
 
         </div>
     );
