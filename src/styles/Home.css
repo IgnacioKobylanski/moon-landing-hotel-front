@@ -42,4 +42,6 @@
 
 .hotel-events-section{
     padding-top: 12rem;
+    max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto;
 }
