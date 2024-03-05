@@ -1,16 +1,13 @@
-import React from "react";
+import React, { useState } from 'react';
+import rooms from '../bbdd/rooms';
 import '../styles/Gallery.css'
 
-function Gallery(props) {
-    const { images } = props;
-  
-    return (
-      <div className="gallery">
-        {images.map((image, index) => (
-          <img key={index} src={image} alt={`Image ${index}`} />
-        ))}
-      </div>
-    );
-  }
-  
-  export default Gallery;
+function Gallery() {
+  return (
+    <div className="gallery-main">
+      <h3>Images</h3>
+    </div>
+  );
+}
+
+export default Gallery;
