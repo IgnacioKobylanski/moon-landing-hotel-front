@@ -27,19 +27,19 @@ const rooms = [
         id: 5,
         name: 'Classic',
         price: '$450',
-        imageUrl: 'https://images.pexels.com/photos/15011341/pexels-photo-15011341/free-photo-of-kocatas-de-seis-sentidos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+        imageUrl: 'https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
       },
       {
         id: 5,
         name: 'Classic',
         price: '$450',
-        imageUrl: 'https://images.pexels.com/photos/15011341/pexels-photo-15011341/free-photo-of-kocatas-de-seis-sentidos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+        imageUrl: 'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
       },
       {
         id: 5,
         name: 'Classic',
         price: '$450',
-        imageUrl: 'https://images.pexels.com/photos/15011341/pexels-photo-15011341/free-photo-of-kocatas-de-seis-sentidos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+        imageUrl: 'https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
       },
       {
         id: 5,

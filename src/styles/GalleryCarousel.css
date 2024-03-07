@@ -1,8 +1,61 @@
+:root {
+  --lightGray: #a4a49c;
+  --mediumGray: #3d3c3e; 
+  --darkGray: #333;
+}
 
 .gallery-carousel-image {
   width: 171px;
   height: 180px;
   margin: 5px;
   border: 1px solid #ccc;
+  
 }
 
+.carousel-gallery-container {
+  max-width: 150rem;
+  margin: 0 auto;
+  margin-left: 3rem;
+  
+}
+
+/* .slick-slide {
+  display: flex;
+  justify-content: center;
+} */
+
+.slick-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.slick-prev,
+.slick-next {
+  font-size: 20px;
+  color: black;
+  background-color: transparent; 
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 50px;
+}
+
+.slick-prev i,
+.slick-next i {
+  transform: scale(0.6);
+}

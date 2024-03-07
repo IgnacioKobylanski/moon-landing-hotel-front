@@ -1,5 +1,25 @@
+:root {
+    --lightGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+    --darkGray: #333;
+}
 .gallery-main{
-
+    background-color: var(--lightGray);
     padding-top: 10vh;
     margin-top: 10vh;
+}
+
+.selected-image-container{
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    width: 80rem;
+    max-height: 200rem;
+    border-top: 10px solid #333333;
+    border-right: 10px solid #333333;
+    border-bottom: 10px solid #3d3c3e;
+    border-left: 10px solid #3d3c3e;
 }
