@@ -9,15 +9,14 @@
   height: 180px;
   margin: 5px;
   border: 1px solid #ccc;
-  
+
 }
 
 .carousel-gallery-container {
-  height: 10rem;
-  max-width: 55rem;
+  max-width: 150rem;
   margin: 0 auto;
   margin-left: 3rem;
-  transform: rotate(90deg);
+
 }
 
 /* .slick-slide {
@@ -49,17 +48,14 @@
 }
 
 .slick-prev {
-  left: 1px;
+  left: 10px;
 }
 
 .slick-next {
-  right: 1px;
+  right: 50px;
 }
 
 .slick-prev i,
 .slick-next i {
   transform: scale(0.6);
-}
-.slick-slide img {
-  transform: rotate(-90deg);
 }

@@ -20,14 +20,14 @@ function Gallery() {
   return (
     <div className="gallery-main">
       <h3>A small view into another world.</h3>
-      <div className="galley-container">
+    <div className="gallery-container">
       <GalleryCarousel rooms={rooms} onImageClick={handleImageClick} />
+    </div>
+    <div className="big-img">
       {selectedImage && (
-        <div className="selected-image-container">
-          <img className="selected-image" src={selectedImage} alt="Selected" />
-        </div>    
+        <img className="selected-image" src={selectedImage} alt="Selected" />   
       )}
-      </div>
+    </div>
     </div>
   );
 }
