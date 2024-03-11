@@ -26,11 +26,3 @@ const RoomPage = () => {
 };
 
 export default RoomPage;
-
-/* <div className="room-details">
-            <h2>{roomDetails.name}</h2>
-            {roomDetails.images.map((image, index) => (
-                <img key={index} src={image} alt={`Room ${index + 1}`} className="room-image" />
-            ))}
-            <p className="text-description">{roomDetails.description}</p>
-        </div> */

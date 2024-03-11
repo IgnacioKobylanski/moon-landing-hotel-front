@@ -6,6 +6,8 @@
 
 
 .roomList-main {
+    display: flex;
+    flex-wrap: wrap;
     min-height: 100vh;
     padding-bottom: 10rem;
     margin-top: 10vh;
@@ -13,17 +15,14 @@
     background-color: var(--lightGray);
 }
 
-.content-roomList-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 2rem;
-    
+.roomList-main>h2{
+    color: var(--darkGray);
+    text-align: center;
+    width: 100%;
 }
+
 
 .room-cards-RoomList{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 1rem;
+    
 }

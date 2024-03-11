@@ -43,7 +43,7 @@
     box-shadow: inset;
 }
 
-.hotel-info-middle,p{
+.hotel-info-middle>p{
     width: 85rem;
 }
 

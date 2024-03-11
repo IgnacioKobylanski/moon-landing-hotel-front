@@ -7,8 +7,8 @@ const RoomCard = ({ roomInfo }) => {
             <img
                 className="room-small-image"
                 src={roomInfo.imageUrl}
-                alt={roomInfo.name}
-            />
+                alt={roomInfo.name}/>
+                
             <h3>{roomInfo.name}</h3>
             <p>{roomInfo.price}</p>
         </div>
