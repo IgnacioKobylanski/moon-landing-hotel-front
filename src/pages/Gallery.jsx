@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Gallery.css';
 import GalleryCarousel from '../components/GalleyCarousell';
-import ImageGallery from '../components/ImageGallery';
 import rooms from '../bbdd/rooms';
 
 function Gallery() {
