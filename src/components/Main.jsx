@@ -5,6 +5,7 @@ import RoomPage from "../pages/RoomPage";
 import RoomList from "./RoomList";
 import HotelInfo from "../pages/HotelInfo";
 import Gallery from "../pages/Gallery";
+import EventsMain from "../pages/EventsMain";
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
         <Route path="/rooms" element={<RoomList />} />
         <Route path="/hotel-info" element={<HotelInfo />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/events" element={<EventsMain />} />
       </Routes>
     </main>
   );
