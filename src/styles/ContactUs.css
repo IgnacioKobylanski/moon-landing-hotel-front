@@ -1,0 +1,12 @@
+:root {
+    --lightGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+    --darkGray: #333;
+}
+
+.contact-main{
+    margin-top: 10rem;
+    padding-top: 10rem;
+    background-color: var(--lightGray);
+
+}
