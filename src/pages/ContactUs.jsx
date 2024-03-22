@@ -4,7 +4,9 @@ import '../styles/ContactUs.css'
 const ContactUs = () => {
     return (
         <div className="contact-main">
-            <h2>test</h2>
+            <h2>Contac Info</h2>
+            <p></p>
+            <img src="" alt="" />
         </div>
     );
 };
