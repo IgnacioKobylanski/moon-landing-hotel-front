@@ -19,7 +19,7 @@ function ContactUs() {
     <div className="contact-main">
       <div className="message">
         <h2>Contact Us</h2>
-        <form onSubmit={handleSubmit}>
+        <form className="form-contact" onSubmit={handleSubmit}>
           <label>
             <input
               type="text"
