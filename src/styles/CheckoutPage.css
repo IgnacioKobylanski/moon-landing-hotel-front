@@ -4,3 +4,7 @@
     --darkGray: #333;
     --events-back: #7F7F76;
 }
+
+.checkout-main{
+    display: flex;
+}
