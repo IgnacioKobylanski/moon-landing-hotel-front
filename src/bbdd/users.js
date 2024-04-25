@@ -8,6 +8,11 @@ const users = [
         id:2,
         email:'carlo@mail.com',
         password:'carlo1234'
+    },
+    {
+        id:3,
+        email:'pedro@mail.com',
+        password:'pedro1234'
     }
 ]
 
