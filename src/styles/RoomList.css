@@ -13,6 +13,8 @@
     margin-top: 10vh;
     padding-top: 10vh;
     background-color: var(--lightGray);
+    justify-content: center;
+    
 }
 
 .roomList-main>h2{
