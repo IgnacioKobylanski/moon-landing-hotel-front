@@ -6,6 +6,7 @@ function CheckoutPage(){
         <h2>Your reservations</h2>
         <p>Here you can check all the information regarding your reservations</p>
         <section className="reservations"></section>
+        <p>Contact Us</p>
         </div>
     );
 }
