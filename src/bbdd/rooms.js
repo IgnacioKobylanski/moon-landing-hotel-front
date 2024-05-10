@@ -76,6 +76,12 @@ const rooms = [
         name: 'Classic',
         price: '$550',
         imageUrl: 'https://images.pexels.com/photos/15011341/pexels-photo-15011341/free-photo-of-kocatas-de-seis-sentidos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      },
+      {
+        id: 10,
+        name: 'Classic',
+        price: '$550',
+        imageUrl: 'https://images.pexels.com/photos/15011341/pexels-photo-15011341/free-photo-of-kocatas-de-seis-sentidos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
       }
 
 ];
