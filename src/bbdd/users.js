@@ -28,25 +28,9 @@ const users = [
         admin:false,
         email:'bustamante@mail.com',
         password:'busta1234'
-    },
-    {
-        id:6,
-        admin:false,
-        email:'bustamante@mail.com',
-        password:'busta1234'
-    },
-    {
-        id:7,
-        admin:false,
-        email:'bustamante@mail.com',
-        password:'busta1234'
-    },
-    {
-        id:8,
-        admin:false,
-        email:'bustamante@mail.com',
-        password:'busta1234'
     }
+    
+
 ]
 
 export default users;
