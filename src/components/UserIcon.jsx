@@ -1,8 +1,9 @@
 import React from 'react';
 import { FaUserAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import DropdownMenu from './DropDownMenu';
 import '../styles/UserIcon.css';
-
+import CreateUser from '../pages/CreateUser';
 
 const UserIcon = () => {
   return (
@@ -10,8 +11,12 @@ const UserIcon = () => {
       <FaUserAlt className="icon" />
       <DropdownMenu>
         <ul>
-          <li>Create User</li>
-          <li>Login</li>
+          <li>
+            <Link to="/create-user">Create User</Link> {}
+          </li>
+          <li>
+            <Link to="/login">Login</Link> {/*Link */}
+          </li>
         </ul>
       </DropdownMenu>
     </div>
