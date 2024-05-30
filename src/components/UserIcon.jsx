@@ -15,7 +15,7 @@ const UserIcon = () => {
             <Link to="/create-user">Create User</Link> {}
           </li>
           <li>
-            <Link to="/login">Login</Link> {/*Link */}
+            <Link to="/login-option">Login</Link> {/*Link */}
           </li>
         </ul>
       </DropdownMenu>
