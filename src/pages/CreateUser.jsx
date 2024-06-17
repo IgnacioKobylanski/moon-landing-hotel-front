@@ -9,7 +9,8 @@ const CreateUser = () => {
   // Función para manejar el envío del formulario
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Aquí puedes manejar la lógica para enviar los datos del formulario al backend
+
+    //recorda cambiar esto cuando pases al back
     console.log("Username:", username);
     console.log("Email:", email);
     console.log("Password:", password);
