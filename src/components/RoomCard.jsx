@@ -1,4 +1,7 @@
+// RoomCard.jsx
+
 import React from "react";
+import { Link } from 'react-router-dom';
 import '../styles/RoomCard.css';
 
 const RoomCard = ({ roomInfo }) => {
@@ -7,10 +10,13 @@ const RoomCard = ({ roomInfo }) => {
             <img
                 className="room-small-image"
                 src={roomInfo.imageUrl}
-                alt={roomInfo.name}/>
-                
+                alt={roomInfo.name}
+            />
             <h3>{roomInfo.name}</h3>
             <p>{roomInfo.price}</p>
+            <Link to={`/rooms/${roomInfo.id}`} className="see-more-button">
+                See More
+            </Link>
         </div>
     );
 };
