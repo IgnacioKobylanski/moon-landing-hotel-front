@@ -10,7 +10,7 @@ const RoomPage = () => {
     const roomDetails = rooms.find(room => room.id === parseInt(id));
 
     if (!roomDetails) {
-        return <div>Room not found</div>; // Manejo básico si la habitación no se encuentra
+        return <div>Room not aviable</div>; // Manejo básico si la habitación no se encuentra
     }
 
     return (
