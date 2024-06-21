@@ -5,7 +5,12 @@ import '../styles/RoomPage.css'
 const RoomPage = () => {
     return (
         <div className="room-details">
-            <h2>This is the RoomPage</h2>
+            <h2>nombre</h2>
+            <img src="" alt="roomImg" />
+            <p>"price" *for night</p>
+            <p>description</p>
+
+
         </div>
     );
 };
