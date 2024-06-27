@@ -8,7 +8,7 @@ const RoomPage = () => {
             <h2>nombre</h2>
             <img src="" alt="roomImg" />
             <p>"price" *for night</p>
-        
+            <p></p>
         </div>
     );
 };
