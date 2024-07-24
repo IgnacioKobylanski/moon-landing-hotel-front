@@ -9,7 +9,6 @@ const RoomPage = () => {
             <img src="" alt="roomImg" />
             <p>"price" *for night</p>
             <p>Description</p>
-            <p>opinions</p>
         </div>
     );
 };
