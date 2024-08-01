@@ -1,3 +1,10 @@
+:root {
+    --lihgtGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+    --darkGray: #333;
+}
+
+
 .room-card-container {
     display: flex;
     border: 0.1rem solid var(--lightGray);
