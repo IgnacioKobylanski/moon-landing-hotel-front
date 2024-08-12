@@ -57,13 +57,6 @@ const Home = () => {
                     imageSrc="https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     className="section-1"
                 />
-
-                <Events
-                    title="Witness the best art colection in the world."
-                    content="Be part of a historical collection featuring the world's best artists"
-                    imageSrc="https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    className="section-1"
-                />
             </section>
 
         </div>
