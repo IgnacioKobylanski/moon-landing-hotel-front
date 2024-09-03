@@ -28,7 +28,7 @@ const Main = () => {
 
 export default Main;
 
-/*
+/*Do not delete this
 import React from "react";
 import { Route, Routes } from 'react-router-dom';
 import Home from "../pages/Home";
