@@ -20,7 +20,7 @@ const events = [
         img: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1://images.pexels.com/photos/1677710/pexels-photo-1677710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     {
-        id: 3,
+        id: 2,
         name: 'Ted Talk',
         description: 'Ted Talk is coming to town and is waiting for you!',
         text: 'Do you want to waste your time listening to weird people?, look no further.',
