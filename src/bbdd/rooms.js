@@ -33,6 +33,13 @@ const rooms = [
         price: '$450',
         description: 'trllalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalala',
         imageUrl: 'https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      },
+      {
+        id: 6,
+        name: 'Classic',
+        price: '$450',
+        description: 'trllalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalala',
+        imageUrl: 'https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
       }
 
 ];
