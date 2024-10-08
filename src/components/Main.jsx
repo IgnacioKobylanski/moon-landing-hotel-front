@@ -1,5 +1,3 @@
-// Main.jsx
-
 import React from "react";
 import { Route, Routes } from 'react-router-dom';
 import Home from "../pages/Home";
@@ -15,7 +13,8 @@ const Main = () => {
         <main>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/room" element={<RoomPage />} />
+                {/* Ruta dinámica con el ID de la habitación */}
+                <Route path="/room/:id" element={<RoomPage />} />  
                 <Route path="/rooms" element={<RoomList />} />
                 <Route path="/hotel-info" element={<HotelInfo />} />
                 <Route path="/gallery" element={<Gallery />} />
@@ -27,6 +26,7 @@ const Main = () => {
 };
 
 export default Main;
+
 
 /*Do not delete this
 import React from "react";

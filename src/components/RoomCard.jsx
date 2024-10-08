@@ -14,9 +14,10 @@ const RoomCard = ({ roomInfo }) => {
             />
             <h3>{roomInfo.name}</h3>
             <p>{roomInfo.price}</p>
-            <Link to={`/room`} className="see-more-button">
-                See More
+            <Link to={`/room/${roomInfo.id}`} className="see-more-button">
+                 See More
             </Link>
+
         </div>
     );
 };

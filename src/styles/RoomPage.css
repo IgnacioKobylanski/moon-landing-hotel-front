@@ -6,12 +6,23 @@
 
 
 .room-details {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     padding-bottom: 10rem;
     margin-top: 10vh;
     background-color: var(--lihgtGray);
     margin-top: 10vh;
     padding-top: 10vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .room-details-img{
+    max-width: 50rem;
+    align-items: center;
+    justify-content: center;
   }
   
   
