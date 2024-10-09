@@ -7,19 +7,20 @@ import HotelInfo from "../pages/HotelInfo";
 import Gallery from "../pages/Gallery";
 import EventsMain from "../pages/EventsMain";
 import ContactUs from "../pages/ContactUs";
+import Cart from "./Cart";
 
 const Main = () => {
     return (
         <main>
             <Routes>
                 <Route path="/" element={<Home />} />
-                {/* Ruta dinámica con el ID de la habitación */}
                 <Route path="/room/:id" element={<RoomPage />} />  
                 <Route path="/rooms" element={<RoomList />} />
                 <Route path="/hotel-info" element={<HotelInfo />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/events" element={<EventsMain />} />
                 <Route path="/contact-us" element={<ContactUs />} />
+                <Route path="/cart" element={<Cart />} />
             </Routes>
         </main>
     );

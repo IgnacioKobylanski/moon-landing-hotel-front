@@ -16,6 +16,7 @@ const RoomPage = () => {
         <div className="room-details">
             <h2>{room.name}</h2>  
             <img src={room.imageUrl} alt={room.name} className="room-details-img" /> 
+            <p>{room.description}</p>
             <p>{room.price} per night</p>
         </div>
     );

@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 import UserIcon from "./UserIcon";
+import { FaShoppingCart } from "react-icons/fa";
+
+
 
 const Header = ({ onLogin }) => {
     return (
@@ -18,6 +21,9 @@ const Header = ({ onLogin }) => {
                 <Link to="/contact-us">Contact Us</Link>
             </nav>
             <UserIcon />
+            <Link to="/cart">
+            <FaShoppingCart className="cart-icon" />
+            </Link>
         </header>
     );
 };
