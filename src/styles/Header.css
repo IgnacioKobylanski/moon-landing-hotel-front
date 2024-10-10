@@ -56,5 +56,9 @@ nav a:hover {
 }
 
 .cart-icon:hover {
-  color: white; /* Cambia el color al pasar el mouse */
+  color: white;
+}
+
+.user-icon:hover {
+  color: white;
 }

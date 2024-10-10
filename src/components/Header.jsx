@@ -20,10 +20,12 @@ const Header = ({ onLogin }) => {
                 <Link to="/events">Events</Link>
                 <Link to="/contact-us">Contact Us</Link>
             </nav>
-            <UserIcon />
+            <div className="user-cart-icons">
+            <UserIcon className="user-icon"  />
             <Link to="/cart">
             <FaShoppingCart className="cart-icon" />
             </Link>
+            </div>
         </header>
     );
 };
