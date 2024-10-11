@@ -1,0 +1,21 @@
+:root {
+    --lightGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+    --darkGray: #333;
+  }
+
+  .event-detail{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--mediumGray);
+    color: var(--lightGray);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    font-family: "EB Garamond", serif;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
