@@ -8,6 +8,7 @@ import Gallery from "../pages/Gallery";
 import EventsMain from "../pages/EventsMain";
 import ContactUs from "../pages/ContactUs";
 import Cart from "./Cart";
+import EventDetail from "./EventDetail";
 
 const Main = () => {
     return (
@@ -21,6 +22,7 @@ const Main = () => {
                 <Route path="/events" element={<EventsMain />} />
                 <Route path="/contact-us" element={<ContactUs />} />
                 <Route path="/cart" element={<Cart />} />
+                <Route path="/event/:id" element={<EventDetail />} />
             </Routes>
         </main>
     );

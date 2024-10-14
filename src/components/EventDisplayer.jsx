@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../styles/EventDisplayer.css'
 
 const EventDisplayer = ({ events }) => {
@@ -13,7 +14,7 @@ const EventDisplayer = ({ events }) => {
             <div className="event-text">
               <h3>{event.name}</h3>
               <p>{event.description}</p>
-              <a href="" className="event-show-more">See more.</a>
+              <Link to={`/event/${event.id}`} className="event-show-more">See more</Link>
             </div>
            
               <img src={event.img} alt={event.name} />

@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import events from "../bbdd/events";
+import "../styles/EventDetail.css"
 
 const EventDetail = () => {
     const {id} = useParams();
