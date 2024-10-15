@@ -1,0 +1,7 @@
+10/14
+-small carousell fixed
+-still need to check the div for the images
+-create user route added to main
+-create user css created and implemented
+-crate user css done
+-check the create user div background color

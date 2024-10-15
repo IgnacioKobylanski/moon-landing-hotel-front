@@ -13,21 +13,23 @@
 }
 
 .carousel-gallery-container {
-  max-width: 150rem;
+  max-width: 100rem;
   margin: 0 auto;
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
 
 }
 
-/* .slick-slide {
-  display: flex;
-  justify-content: center;
-} */
+.slick-slide {
+  /* display: flex;
+  justify-content: center; */
+  padding: 0 5px; /* Añade un pequeño espacio entre imágenes */
+  box-sizing: border-box;
+}
 
 .slick-list{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: block;
+  /* flex-direction: column;
+  justify-content: center; */
 }
 
 

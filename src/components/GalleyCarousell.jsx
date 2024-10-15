@@ -9,7 +9,7 @@ function GalleryCarousel({ rooms, onImageClick }) {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 8,
+    slidesToShow: 6,
     slidesToScroll: 1,
     arrows: true,
     prevArrow: <div className="slick-prev"></div>,

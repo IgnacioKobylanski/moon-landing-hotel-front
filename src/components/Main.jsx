@@ -9,6 +9,7 @@ import EventsMain from "../pages/EventsMain";
 import ContactUs from "../pages/ContactUs";
 import Cart from "./Cart";
 import EventDetail from "./EventDetail";
+import CreateUser from "../pages/CreateUser";
 
 const Main = () => {
     return (
@@ -23,6 +24,7 @@ const Main = () => {
                 <Route path="/contact-us" element={<ContactUs />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/event/:id" element={<EventDetail />} />
+                <Route path="/create-user" element={<CreateUser />} />
             </Routes>
         </main>
     );
