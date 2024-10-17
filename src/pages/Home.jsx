@@ -22,7 +22,7 @@ const Home = () => {
                 <ServiceCard
                     title="Accommodation"
                     imageUrl="https://images.pexels.com/photos/161758/governor-s-mansion-montgomery-alabama-grand-staircase-161758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    link="/accommodation"
+                    link="/rooms"
                 />
                 <ServiceCard
                     title="Dining"

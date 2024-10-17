@@ -7,4 +7,6 @@
 -check the create user div background color
 
 10/16
--
+-login is now implemented(whit css)
+-service section "accommodatio" now link to rooms
+-dinning component needs to be created, do not use a reservation system(also the css)

@@ -18,27 +18,37 @@ const Login = ({ onLogin }) => {
   };
 
   return (
-    <div className="login-container">
-      <label className="label" htmlFor="username">Username</label>
-      <input
-        className="input"
-        type="text"
-        id="username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-      />
-      <label className="label" htmlFor="password">Password</label>
-      <input
-        className="input"
-        type="password"
-        id="password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <button className="button" onClick={handleLogin}>Login</button>
-      {error && <p className="error-message">{error}</p>}
-      {successMessage && <p className="success-message">{successMessage}</p>}
-      <a className="forgot-password" href="/">Olvidé mi contraseña</a>
+    <div className="login-main">
+      <div className="form-container">
+        <h2>Sign In</h2>
+        <form className="form-login" onSubmit={(e) => {e.preventDefault(); handleLogin();}}>
+          <label>
+            <input
+              type="text"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              placeholder="Username"
+              required
+            />
+          </label>
+          <label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Password"
+              required
+            />
+          </label>
+          <button type="submit">Login</button>
+        </form>
+        {error && <p className="error-message">{error}</p>}
+        {successMessage && <p className="success-message">{successMessage}</p>}
+        <a className="forgot-password" href="/">Forgot Password?</a>
+      </div>
+      <div className="img">
+        <img src="moonlanding-hotel-logo.png" alt="Logo" />
+      </div>
     </div>
   );
 };

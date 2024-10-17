@@ -1,3 +1,11 @@
+:root {
+  --lightGray: #a4a49c;
+  --mediumGray: #3d3c3e;
+  --darkGray: #333;
+}
+
+
+
 /* UserIcon.css */
 
 .user-icon {
@@ -31,9 +39,14 @@
   .dropdown-menu li {
     padding: 8px;
     cursor: pointer;
+    
   }
   
   .user-icon:hover .dropdown-menu {
     display: block;
   }
   
+  .dropdown-menu li a {
+    text-decoration: none;
+    color: var(--darkGray);
+  }

@@ -10,6 +10,7 @@ import ContactUs from "../pages/ContactUs";
 import Cart from "./Cart";
 import EventDetail from "./EventDetail";
 import CreateUser from "../pages/CreateUser";
+import Login from "./Login";
 
 const Main = () => {
     return (
@@ -25,6 +26,7 @@ const Main = () => {
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/event/:id" element={<EventDetail />} />
                 <Route path="/create-user" element={<CreateUser />} />
+                <Route path="/login" element={<Login />} />
             </Routes>
         </main>
     );
