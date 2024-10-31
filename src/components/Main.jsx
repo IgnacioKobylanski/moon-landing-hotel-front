@@ -12,6 +12,7 @@ import EventDetail from "./EventDetail";
 import CreateUser from "../pages/CreateUser";
 import Login from "./Login";
 import Restaurant from "../pages/Restaurant";
+import Spa from "../pages/Spa";
 
 const Main = () => {
     return (
@@ -29,6 +30,7 @@ const Main = () => {
                 <Route path="/create-user" element={<CreateUser />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/dining" element={<Restaurant />} />
+                <Route path="/spa" element={<Spa />} />
             </Routes>
         </main>
     );
