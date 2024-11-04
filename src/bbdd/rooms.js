@@ -65,7 +65,7 @@ const rooms = [
       {
         id: 10,
         name: 'Serene Sky Room',
-        price: '$250',
+        price: '$50',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa',
         imageUrl: 'https://images.pexels.com/photos/19467973/pexels-photo-19467973/free-photo-of-hotel-cama-habitacion-viaje.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
       }
