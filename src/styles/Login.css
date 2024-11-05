@@ -4,7 +4,7 @@
   --darkGray: #333;
 }
 
-/* Contenedor principal similar al de CreateUser */
+
 .login-main {
   margin-top: 5rem;
   padding-top: 5rem;
@@ -43,7 +43,7 @@
   margin-bottom: 1rem;
   box-sizing: border-box;
   border: 1px solid var(--darkGray);
-  border-radius: 0.5rem; /* Bordes redondeados */
+  border-radius: 0.5rem;
 }
 
 .form-login button {
