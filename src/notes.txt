@@ -19,3 +19,4 @@
 -spa finished
 
 11/7
+-log in is now functional but only shows in console.

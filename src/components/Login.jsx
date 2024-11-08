@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import users from '../bbdd/users';  // Asegúrate de que este archivo de usuarios esté correcto
+import users from '../bbdd/users';
 import '../styles/Login.css';
 
-const Login = ({ onLogin }) => {  // Recibiendo onLogin como prop
+const Login = ({ onLogin }) => {  // Recibe onLogin como prop
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState(null);
