@@ -28,6 +28,12 @@ const users = [
         admin:false,
         email:'charston@mail.com',
         password:'charston1234'
+    },
+    {
+        id:6,
+        admin:true,
+        email:'preston@mail.com',
+        password:'preston1234'
     }
 ]
 
