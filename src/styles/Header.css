@@ -49,10 +49,10 @@ nav a:hover {
 }
 
 .cart-icon {
-  font-size: 1.5em; /* Ajusta el tamaño que desees */
-  color:var(--lightGray); /* Cambia el color si lo deseas */
-  margin-left: 15px; /* Añade espacio a la izquierda si es necesario */
-  cursor: pointer; /* Cambia el cursor a un puntero para indicar que es clickeable */
+  font-size: 1.5em; 
+  color:var(--lightGray); 
+  margin-left: 15px;
+  cursor: pointer;
 }
 
 .cart-icon:hover {
@@ -61,4 +61,54 @@ nav a:hover {
 
 .user-icon:hover {
   color: white;
+}
+
+/* Cambios en el texto de bienvenida */
+.user-options span {
+  display: flex;
+  font-size: 18px; 
+  font-weight: bold; 
+  color: var(--lightGray); 
+}
+
+/* Cambios en el botón de "View Profile" */
+.profile-button {
+  padding: 5px 10px;
+  background-color: #007bff; 
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 1rem
+}
+
+.profile-button:hover {
+  background-color: #0056b3;
+}
+
+
+.profile-link:hover {
+  text-decoration: underline;
+}
+
+/* Cambios en el botón de "Logout" */
+.logout-button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.user-cart-icons{
+  display: flex;
+  flex-direction: row;
+    align-items: center
 }

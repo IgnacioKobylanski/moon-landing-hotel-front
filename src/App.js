@@ -9,16 +9,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
     const [userData, setUserData] = useState(null);
 
+    // Función para manejar el login
     const handleLogin = (userData) => {
-        setUserData(userData);
+        setUserData(userData); // Guarda los datos del usuario autenticado
         console.log("Usuario logueado:", userData);
+    };
+
+    // Función para manejar el logout
+    const handleLogout = () => {
+        setUserData(null); // Limpia los datos del usuario al cerrar sesión
+        console.log("Usuario deslogueado");
     };
 
     return (
         <Router>
             <div className="App">
-                <Header onLogin={handleLogin} />
-                {/* Pasa handleLogin a Main como onLogin */}
+                {/* Pasa userData y handleLogout a Header */}
+                <Header userData={userData} onLogout={handleLogout} />
+                {/* Pasa userData y handleLogin a Main */}
                 <Main userData={userData} onLogin={handleLogin} />
             </div>
             <Footer />
@@ -27,8 +35,6 @@ const App = () => {
 };
 
 export default App;
-
-
 
 
 

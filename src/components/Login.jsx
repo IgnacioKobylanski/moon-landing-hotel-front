@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import users from '../bbdd/users';
+import users from '../bbdd/users'; // Suponiendo que users.js es donde tienes la base de datos de usuarios
 import '../styles/Login.css';
 
-const Login = ({ onLogin }) => {  // Recibe onLogin como prop
+const Login = ({ onLogin }) => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState(null);
@@ -13,7 +13,7 @@ const Login = ({ onLogin }) => {  // Recibe onLogin como prop
         const user = users.find(u => u.email === username && u.password === password);
 
         if (user) {
-            const userData = { username, userId: user.id, admin: user.admin };
+            const userData = { username: user.nombre + ' ' + user.apellido, userId: user.id, admin: user.admin };
             onLogin(userData);  // Llama a la función onLogin pasada como prop
             setSuccessMessage("Login successful!");
             setError(null);
