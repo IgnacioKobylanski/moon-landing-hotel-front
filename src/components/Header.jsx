@@ -1,10 +1,16 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../styles/Header.css';
 import UserIcon from "./UserIcon";
 import { FaShoppingCart } from "react-icons/fa";
 
 const Header = ({ userData, onLogout }) => {
+    const navigate = useNavigate(); // Inicializa el hook para navegación
+
+    const handleViewProfile = () => {
+        navigate('/user');  // Redirige al perfil del usuario cuando haga clic en "View Profile"
+    };
+
     return (
         <header>
             <Link to="/" className="logo-link">
@@ -22,8 +28,7 @@ const Header = ({ userData, onLogout }) => {
                 {userData ? (
                     <div className="user-options">
                         <span>Welcome, {userData.username}!</span>
-                        {/* Botón de "View Profile" */}
-                        <button className="profile-button" onClick={() => console.log("View Profile")}>View Profile</button>
+                        <button className="profile-button" onClick={handleViewProfile}>View Profile</button>
 
                         <button onClick={onLogout} className="logout-button">Logout</button>
                     </div>

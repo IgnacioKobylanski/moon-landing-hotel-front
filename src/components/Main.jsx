@@ -13,8 +13,9 @@ import CreateUser from "../pages/CreateUser";
 import Login from "./Login";
 import Restaurant from "../pages/Restaurant";
 import Spa from "../pages/Spa";
+import UserPage from "../pages/UserPage"; 
 
-const Main = ({ userData, onLogin }) => {  // Recibe onLogin como prop
+const Main = ({ userData, onLogin, onLogout }) => {  // Recibe onLogin y onLogout como props
     return (
         <main>
             <Routes>
@@ -31,6 +32,7 @@ const Main = ({ userData, onLogin }) => {  // Recibe onLogin como prop
                 <Route path="/login" element={<Login onLogin={onLogin} />} />
                 <Route path="/dining" element={<Restaurant />} />
                 <Route path="/spa" element={<Spa />} />
+                <Route path="/user" element={<UserPage userData={userData} onLogout={onLogout} />} />
             </Routes>
         </main>
     );

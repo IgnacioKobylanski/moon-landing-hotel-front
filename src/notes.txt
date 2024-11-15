@@ -20,3 +20,7 @@
 
 11/7
 -log in is now functional but only shows in console.
+
+11/14
+-login is now fully functional
+-logout is functional

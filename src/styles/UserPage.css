@@ -1,0 +1,18 @@
+:root {
+    --lightGray: #a4a49c;
+    --mediumGray: #3d3c3e; 
+    --darkGray: #333;
+  }
+
+  .user-page-main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 10rem;
+    margin-top: 10vh;
+    background-color: var(--lihgtGray);
+    margin-top: 10vh;
+    padding-top: 10vh;
+    align-items: center;
+    justify-content: center;
+  }
