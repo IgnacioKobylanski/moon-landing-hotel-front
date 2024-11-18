@@ -9,7 +9,6 @@ const Login = ({ onLogin }) => {
     const [successMessage, setSuccessMessage] = useState(null);
 
     const handleLogin = () => {
-        // Busca al usuario en la base de datos de usuarios
         const user = users.find(u => u.email === username && u.password === password);
 
         if (user) {
