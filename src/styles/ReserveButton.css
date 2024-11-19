@@ -1,0 +1,25 @@
+:root {
+    --lightGray: #a4a49c;
+    --mediumGray: #3d3c3e;
+    --darkGray: #333;
+  }
+
+.reserve-button {
+    background-color: var(--darkGray);
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reserve-button:hover {
+    background-color: red;
+  }
+  
+  .reserve-button:active {
+    background-color: green;
+  }
+  

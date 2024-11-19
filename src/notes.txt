@@ -24,3 +24,6 @@
 11/14
 -login is now fully functional
 -logout is functional
+
+11/19
+-everithing needs a reservation button
