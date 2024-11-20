@@ -27,3 +27,6 @@
 
 11/19
 -everithing needs a reservation button
+
+11/20
+- reserve button is now in rooms and events

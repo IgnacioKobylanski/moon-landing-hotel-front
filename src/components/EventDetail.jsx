@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import events from "../bbdd/events";
 import "../styles/EventDetail.css"
+import ReserveButton from "./ReserveButton";
 
 const EventDetail = () => {
     const {id} = useParams();
@@ -11,6 +12,10 @@ const EventDetail = () => {
         return <div>Event not found</div>;
     } // Si no encuentra el evento, muestra un mensaje de error
 
+    const handleReserve = () => {
+        alert(`Event "${event.name}" reserved successfully!`);
+    };
+
     return(
         <div className="event-detail">
             <h2>{event.name}</h2>
@@ -18,6 +23,10 @@ const EventDetail = () => {
             <p>{event.text}</p>
             <p>Price: ${event.price}</p>
             <img src={event.img} alt={event.name} />
+            
+            <div className="event-reserve">
+                <ReserveButton text="Reserve Now" onClick={handleReserve} />
+            </div>
         </div>
     );
 };

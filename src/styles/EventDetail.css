@@ -15,3 +15,7 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .event-reserve{
+    margin-top: 3rem;
+  }
