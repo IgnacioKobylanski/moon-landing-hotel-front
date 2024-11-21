@@ -19,10 +19,15 @@ const RoomPage = () => {
 
     return (
         <div className="room-details">
-            <h2>{room.name}</h2>  
+           <h2 className="room-title">{room.name}</h2>
             <img src={room.imageUrl} alt={room.name} className="room-details-img" /> 
             <p>{room.description}</p>
-            <p>{room.price} per night</p>
+
+
+        <div className="room-details-price-box">
+            <p className="room-details-price-label">Special Price</p>
+            {room.price} <span>per night</span>
+        </div>
 
             <div className="reserve-button-container">
                 <ReserveButton text="Reserve Now" onClick={handleReserve} />

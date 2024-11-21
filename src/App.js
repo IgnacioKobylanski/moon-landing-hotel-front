@@ -38,7 +38,8 @@ export default App;
 
 
 
-/* import './App.css';
+/* DO NOT DELETE
+import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
