@@ -19,3 +19,41 @@
   .event-reserve{
     margin-top: 3rem;
   }
+
+  #event-name{
+    font-size: 2.5rem; 
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--darkGray);
+  }
+
+  #event-photo{
+    width: 35rem;
+    height: 20rem;
+    border: 5px solid var(--mediumGray); 
+    border-radius: 10px;
+  }
+
+  #price-event{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: var(--mediumGray);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 2px solid var(--darkGray);
+    width: 300px;
+    text-align: center;
+  }
+
+  #event-description,#event-text{
+    font-size: 1.2rem; 
+    line-height: 1.5;
+  }
+

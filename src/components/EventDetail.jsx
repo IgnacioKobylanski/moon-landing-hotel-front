@@ -18,11 +18,11 @@ const EventDetail = () => {
 
     return(
         <div className="event-detail">
-            <h2>{event.name}</h2>
-            <p>{event.description}</p>
-            <p>{event.text}</p>
-            <p>Price: ${event.price}</p>
-            <img src={event.img} alt={event.name} />
+            <h2 id="event-name">{event.name}</h2>
+            <p id="event-description">{event.description}</p>
+            <p id="event-text">{event.text}</p>
+            <p id="price-event">Price: ${event.price}</p>
+            <img id="event-photo" src={event.img} alt={event.name} />
             
             <div className="event-reserve">
                 <ReserveButton text="Reserve Now" onClick={handleReserve} />

@@ -29,4 +29,8 @@
 -everithing needs a reservation button
 
 11/20
-- reserve button is now in rooms and events
+-reserve button is now in rooms and events
+
+11/21
+-RoomPage, Events nad Hotel info now have a much impruved css
+-cart page component is next

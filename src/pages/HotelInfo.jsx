@@ -10,11 +10,12 @@ const hotelImages = [
 const HotelInfo = () => {
     return (
       <div className="hotel-info">
-        <h2>Moon Landing Hotel</h2>
+        <h2 className="hotel-info-title">Moon Landing Hotel</h2>
         <section className="hotel-info-intro-section">
-        <img src={hotelImages[0]} id="info-img-intro" alt="Hotel" />
-
         <p id="intro-hotel-info">In the heart of Paris, amidst the romantic ambiance of the City of Lights, a beacon of luxury and innovation emerged in the year 1951. – the Moon Landing Hotel.</p>
+        <img src={hotelImages[0]} id="info-img-intro" alt="Hotel" />
+        <p id="hotel-info-new">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </section>
         <div className="hotel-info-middle">
         <img src={hotelImages[1]} id="img-info-middle" alt="Hotel" />

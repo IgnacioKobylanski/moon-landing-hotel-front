@@ -19,6 +19,14 @@
     
 }
 
+.hotel-info-title{
+    font-size: 2.5rem; 
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--darkGray);
+}
+
+
 .hotel-images-info {
     display: flex;
     flex-wrap: wrap;
@@ -33,15 +41,20 @@
 .hotel-info img {
     max-width: 100%; 
     height: auto; 
-    margin: 1rem; 
+    margin: 0.5rem; 
 }
 
-.hotel-info-middle{
+.hotel-info-middle {
     display: flex;
-    margin: 1rem;
     align-items: center;
-    box-shadow: inset;
+    margin: 0;
+    padding: 1rem;
+    width: 100vw;
+    background: var(--mediumGray);
+    color: white;
+    box-sizing: border-box
 }
+
 
 .hotel-info-middle>p{
     width: 85rem;
@@ -57,20 +70,34 @@
     
 }
 
-#intro-hotel-info{
-    margin: 1rem;
-}
-
 #last-pic-hotel-info{
     width: 100%;
     max-height: 55rem;
 }
 
 .hotel-info-intro-section{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
+    .hotel-info-intro-section {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        width: 100%;
+        padding: 0 1rem;
+    }
+    
+    #hotel-info-new, #intro-hotel-info {
+        display: flex;
+    flex-direction: column;
+        width: 33.33%;
+        padding: 0 1rem;
+    }
+    
+    #info-img-intro {
+        width: 33.33%;
+        object-fit: cover;
+        height: auto;
+    }    
 }
+
 
 .hotel-info-intro-section,p{
     display: flex;
@@ -79,4 +106,15 @@
 
 #info-img-intro{
     height: 50rem;
+    max-width: 50rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border: 5px solid var(--mediumGray); 
+    border-radius: 10px;
+}
+
+#last-pic-hotel-info{
+    border: 5px solid var(--mediumGray); 
+    
 }
