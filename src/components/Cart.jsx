@@ -21,7 +21,7 @@ const Cart = () => {
         }
     ];
 
-    // Calcular el total a pagar
+
     const totalAmount = cartItems.reduce((total, item) => {
         // Convertir el precio de cadena a número para hacer el cálculo
         const price = parseFloat(item.price.replace('$', '')); 
