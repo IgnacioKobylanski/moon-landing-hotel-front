@@ -23,7 +23,7 @@ const Cart = () => {
 
 
     const totalAmount = cartItems.reduce((total, item) => {
-        // Convertir el precio de cadena a número para hacer el cálculo
+        // Convertir el precio de cadena a número para hacer el cálculo(en lo posible buscar si es lo optimo antes de pasar a back)
         const price = parseFloat(item.price.replace('$', '')); 
         return total + price * item.quantity;
     }, 0); // Valor inicial del total es 0
