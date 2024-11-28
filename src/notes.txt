@@ -37,3 +37,7 @@
 
 11/22
 -Cart is now different and has a new component that show items
+
+11/28
+-hover added to contact us button
+-almost ready to jump to the back
