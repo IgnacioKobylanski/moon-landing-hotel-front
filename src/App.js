@@ -51,7 +51,6 @@ const App = () => {
     // Estado para almacenar los datos del usuario logueado
     const [userData, setUserData] = useState(null);
 
-    // Función para manejar el login y actualizar el estado con los datos del usuario
     const handleLogin = (userData) => {
         setUserData(userData); 
         console.log("Usuario logueado:", userData);  
