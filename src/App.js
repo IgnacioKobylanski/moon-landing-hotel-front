@@ -24,10 +24,8 @@ const App = () => {
     return (
         <Router>
             <div className="App">
-                {/* Pasa userData y handleLogout a Header */}
-                <Header userData={userData} onLogout={handleLogout} />
-                {/* Pasa userData y handleLogin a Main */}
-                <Main userData={userData} onLogin={handleLogin} />
+                <Header userData={userData} onLogout={handleLogout} /> {/* Pasa userData y handleLogout a Header  */}
+                <Main userData={userData} onLogin={handleLogin} />  {/* Pasa userData y handleLogin a Main */}
             </div>
             <Footer />
         </Router>
