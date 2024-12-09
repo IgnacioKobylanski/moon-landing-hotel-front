@@ -12,7 +12,7 @@ const Login = ({ onLogin }) => {
         const user = users.find(u => u.email === username && u.password === password);
 
         if (user) {
-            const userData = { username: user.nombre + ' ' + user.apellido, userId: user.id, admin: user.admin };
+            const userData = { username: user.name + ' ' + user.lastname, userId: user.id, admin: user.admin };
             onLogin(userData);  // Llama a la función onLogin pasada como prop
             setSuccessMessage("Login successful!");
             setError(null);

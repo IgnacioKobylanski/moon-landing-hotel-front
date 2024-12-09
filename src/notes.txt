@@ -41,3 +41,8 @@
 11/28
 -hover added to contact us button
 -almost ready to jump to the back
+
+12/7
+-food needs css
+-spa needs css
+-the spanish words were removed

@@ -27,7 +27,7 @@ const UserPage = ({ userData }) => {
     return (
         <div className="user-page-main">
             <h3>Welcome to your profile page!</h3>
-            <span><strong>Name:</strong> {user.nombre} {user.apellido}</span>
+            <span><strong>Name:</strong> {user.name} {user.lastname}</span>
             <span><strong>Email:</strong> {user.email}</span>
         </div>
     );
