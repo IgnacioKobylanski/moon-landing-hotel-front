@@ -50,25 +50,6 @@ export default EventDetail;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* import React from "react";
 import { useParams } from "react-router-dom";
 import events from "../bbdd/events";

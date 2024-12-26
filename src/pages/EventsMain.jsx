@@ -44,15 +44,6 @@ export default EventsMain;
 
 
 
-
-
-
-
-
-
-
-
-
 /* import React from "react";
 import '../styles/EventsMain.css'
 import EventDisplayer from "../components/EventDisplayer";
