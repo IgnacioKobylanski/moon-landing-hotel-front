@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "../styles/EventDetail.css";
 import ReserveButton from "./ReserveButton";
-import api from "../api"; // Axios
+import api from "../api";
 
 const EventDetail = () => {
     const { id } = useParams(); // Obtener ID del evento desde la URL
