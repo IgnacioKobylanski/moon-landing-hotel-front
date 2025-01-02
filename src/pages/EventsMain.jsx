@@ -13,6 +13,7 @@ const EventsMain = () => {
         const fetchEvents = async () => {
             try {
                 const response = await api.get("/events"); // Solicitud al backend
+                console.log("Respuesta del backend:", response.data); // Aquí ves qué está recibiendo el frontend
                 setEvents(response.data); // Guardar datos en el estado
             } catch (err) {
                 setError("Failed to load events. Please try again later.");
@@ -21,9 +22,10 @@ const EventsMain = () => {
                 setLoading(false); // Ocultar loader
             }
         };
-
+    
         fetchEvents();
     }, []);
+    
 
     if (loading) return <p>Loading...</p>;
     if (error) return <p>{error}</p>;

@@ -46,3 +46,6 @@
 -food needs css
 -spa needs css
 -the spanish words were removed
+
+1/2
+-cart need to be functional
