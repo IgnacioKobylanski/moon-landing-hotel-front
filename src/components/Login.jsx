@@ -12,7 +12,7 @@ const Login = ({ onLogin }) => {
         try {
             const loginData = { email: username, password: password };
             console.log("Login data:", loginData); 
-            // Realizamos la llamada POST al backend
+            // La llamada al backend
             const response = await api.post("/users/login", {
                 email: username,
                 password: password
@@ -29,7 +29,7 @@ const Login = ({ onLogin }) => {
             setSuccessMessage("Login successful!");
             setError(null);
         } catch (err) {
-            // Si hay un error
+            // Mensaje de error
             setError("Incorrect email or password.");
             setSuccessMessage(null);
         }
