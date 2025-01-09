@@ -8,7 +8,7 @@ const Header = ({ userData, onLogout }) => {
     const navigate = useNavigate(); // Inicializa el hook para navegación
 
     const handleViewProfile = () => {
-        navigate('/user');  // Redirige al perfil del usuario cuando haga clic en "View Profile"
+        navigate('/user');  // Redirigir al perfil del usuario cuando haga clic en "View Profile"
     };
 
     return (
