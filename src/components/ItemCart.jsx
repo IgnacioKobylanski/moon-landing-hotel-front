@@ -1,5 +1,34 @@
 import React from "react";
 import "../styles/ItemCart.css";
+import { useCart } from "../contexts/CartContext";  // Importamos el hook useCart
+
+const ItemCart = ({ name, price, quantity, imageUrl, itemId }) => {
+    const { removeItemFromCart } = useCart();  // Usamos la función removeItemFromCart del contexto
+
+    const handleRemove = () => {
+        removeItemFromCart(itemId);  // Llamamos a removeItemFromCart con el itemId
+    };
+
+    return (
+        <div className="item-cart-main">
+            <img id="item-cart-img" src={imageUrl} alt={name} />
+            <h3>{name}</h3>
+            <p>Price: {price}</p>
+            <p>Quantity: {quantity}</p>
+            <p>Total: ${(parseFloat(price.replace('$', '')).toFixed(2) * quantity).toFixed(2)}</p>
+            <button className="cart-item-remove-button" onClick={handleRemove}>Remove</button>
+        </div>
+    );
+};
+
+export default ItemCart;
+
+
+
+
+
+/* import React from "react";
+import "../styles/ItemCart.css";
 
 const ItemCart = ({ name, price, quantity, imageUrl }) => {
     return(
@@ -15,3 +44,4 @@ const ItemCart = ({ name, price, quantity, imageUrl }) => {
 };
 
 export default ItemCart;
+ */

@@ -5,6 +5,8 @@ import Main from './components/Main';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { CartProvider } from './contexts/CartContext';
+
 
 const App = () => {
     const [userData, setUserData] = useState(null);
@@ -23,11 +25,13 @@ const App = () => {
 
     return (
         <Router>
+            <CartProvider>
             <div className="App">
                 <Header userData={userData} onLogout={handleLogout} /> {/* Pasa userData y handleLogout a Header  */}
                 <Main userData={userData} onLogin={handleLogin} />  {/* Pasa userData y handleLogin a Main */}
             </div>
             <Footer />
+            </CartProvider>
         </Router>
     );
 };
