@@ -12,18 +12,18 @@ const Cart = () => {
     useEffect(() => {
         // Verificar si el token está en el localStorage
         const token = localStorage.getItem('authToken');
-        console.log("Token en localStorage:", token);  // Verificar si el token está en el localStorage
+        console.log("Token en localStorage:", token); 
         
         if (token) {
-            setIsLoggedIn(true);  // Si el token está presente, el usuario está logueado
+            setIsLoggedIn(true);  
             console.log("Usuario logueado");
         } else {
-            setIsLoggedIn(false);  // Si no hay token, el usuario no está logueado
+            setIsLoggedIn(false); 
             console.log("Usuario no logueado");
         }
-    }, []);  // Se ejecuta solo una vez cuando el componente se monta
+    }, []);
 
-    // Si no está logueado, mostrar el mensaje y no cargar el carrito
+
     if (!isLoggedIn) {
         console.log("Mostrando mensaje de no logueado");
         return <p>You need to be logged in to view your cart.</p>;
