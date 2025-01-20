@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/ItemCart.css";
-import { useCart } from "../contexts/CartContext";  // Importamos el hook useCart
+import { useCart } from "../contexts/CartContext";
 
 const ItemCart = ({ name, price, quantity, imageUrl, itemId }) => {
-    const { removeItemFromCart } = useCart();  // Usamos la función removeItemFromCart del contexto
+    const { removeItemFromCart } = useCart();
 
     const handleRemove = () => {
-        removeItemFromCart(itemId);  // Llamamos a removeItemFromCart con el itemId
+        removeItemFromCart(itemId);
     };
 
     return (
