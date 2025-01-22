@@ -1,36 +1,32 @@
 import React, { useState, useEffect } from "react";
-import api from "../api";
 import "../styles/UserPage.css";
 
-const UserPage = ({ userData }) => {
+const UserPage = () => {
     const [user, setUser] = useState(null);
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        const fetchUser = async () => {
-            if (!userData || !userData.userId) return; // Verificamos que haya un usuario logueado
+        // Verificamos qué hay en localStorage
+        const userData = localStorage.getItem("user");
+        console.log("Datos obtenidos de localStorage:", userData);
 
-            try {
-                // Llamada GET al backend para obtener los datos del usuario
-                const response = await api.get(`/users/${userData.userId}`);
-                setUser(response.data);
-            } catch (err) {
-                setError("User not found!");
-            }
-        };
+        if (!userData) {
+            setError("No user logged in. Please log in.");
+            console.log("No user data found in localStorage.");
+            return;
+        }
 
-        fetchUser();
-    }, [userData]);
+        // Parseamos los datos del usuario
+        const parsedUser = JSON.parse(userData);
+        console.log("Datos del usuario parseados:", parsedUser);
 
-    if (!userData || !userData.userId) {
-        return (
-            <div className="user-page-main">
-                <p>No user logged in. Please log in.</p>
-            </div>
-        );
-    }
+        // Establecemos el estado del usuario
+        setUser(parsedUser);
+    }, []);
 
+    // Si no hay datos del usuario, mostramos un mensaje de error
     if (error) {
+        console.log("Error:", error);
         return (
             <div className="user-page-main">
                 <p>{error}</p>
@@ -38,7 +34,9 @@ const UserPage = ({ userData }) => {
         );
     }
 
+    // Si los datos del usuario aún no están disponibles
     if (!user) {
+        console.log("Cargando datos del usuario...");
         return (
             <div className="user-page-main">
                 <p>Loading user data...</p>
@@ -46,19 +44,23 @@ const UserPage = ({ userData }) => {
         );
     }
 
+    // Si los datos del usuario están disponibles, los mostramos
+    console.log("Mostrando datos del usuario:", user);
+
     return (
         <div className="user-page-main">
             <h3>Welcome to your profile page!</h3>
-            <span><strong>Name:</strong> {user.name} {user.lastname}</span>
-            <span><strong>Email:</strong> {user.email}</span>
+            <div>
+                <span><strong>Name:</strong> {user.username}</span> {/* Muestra el nombre del usuario */}
+            </div>
+            <div>
+                <span><strong>Email:</strong> {user.email ? user.email : 'No email available'}</span> {/* Muestra el correo del usuario */}
+            </div>
         </div>
     );
 };
 
 export default UserPage;
-
-
-
 
 
 /* import React from "react";
