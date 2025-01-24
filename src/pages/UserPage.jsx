@@ -6,7 +6,6 @@ const UserPage = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        // Verificamos qué hay en localStorage
         const userData = localStorage.getItem("user");
         console.log("Datos obtenidos de localStorage:", userData);
 

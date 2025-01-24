@@ -36,13 +36,12 @@ const EventDetail = () => {
 
     // Función para manejar la reserva
     const handleReserve = () => {
-        // Crea el objeto del evento que se agregará al carrito
         const reservationItem = {
             id: event.id,
             name: event.name,
             price: `$${event.price}`,
             imageUrl: event.img,
-            quantity: 1, // Asumimos que el usuario está reservando 1 lugar
+            quantity: 1,
         };
 
         // Agregar el evento al carrito
