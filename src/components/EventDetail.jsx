@@ -23,7 +23,7 @@ const EventDetail = () => {
                 setError("Event not found.");
                 console.error(err);
             } finally {
-                setLoading(false); // Ocultar loader
+                setLoading(false);
             }
         };
 
