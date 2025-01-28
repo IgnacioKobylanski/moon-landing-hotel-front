@@ -19,7 +19,7 @@ const EventsMain = () => {
                 setError("Failed to load events. Please try again later.");
                 console.error(err);
             } finally {
-                setLoading(false); // Ocultar loader
+                setLoading(false);
             }
         };
     
